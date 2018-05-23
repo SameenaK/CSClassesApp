@@ -1,0 +1,34 @@
+{
+  classData: [
+    {
+    courseID: "EECS 101",
+    courseName: "Introduction to Computer Science",
+    courseInfo: "Computation is ubiquitous: DNA contains biological programs and is a part of all lifeforms, the human brain is a powerful computer, and the digital computer has revolutionized most aspects of our society. The primary goal of this course is to explore the whats, whys, and hows of computer science."
+  },
+  {
+    courseID: "EECS 111",
+    courseName: "Fundamentals of Computer Programming I",
+    courseInfo: "This is an introductory course on the fundamentals of computer programming. I see this class as an opportunity for you, the student, to see what computer programming is all about and (more importantly) to see whether you want to spend the next few years doing more of it. This course will include weekly programming projects, readings, a midterm, and final examinations. Class participation is not optional."
+  },
+  {
+    courseID: "EECS 211",
+    courseName: "Fundamentals of Computer Programming II",
+    courseInfo: "Object-oriented programming, classes and data hiding, dynamic object construction and destruction, derived classes and inheritance, virtual functions; functions, call by value/reference, overloading; abstract data types; standard template libraries; exception handling; introduction to UNIX, file processing, process management."
+  },
+  {
+    courseID: "EECS 214",
+    courseName: "Data Structures and Data Management",
+    courseInfo: "The design, implementation, and analysis of abstract data types, data structures and their algorithms. Topics include: data and procedural abstraction, linked lists, stacks, queues, binary trees, searching, and sorting. Required for computer science majors."
+  },
+  {
+    courseID: "EECS 213",
+    courseName: "Introduction to Computer Systems",
+    courseInfo: "This course has four purposes: (1) to learn about the hierarchy of abstractions and implementations that comprise a modern computer system; (2) to demystify the machine and the tools that we use to program it; (3) to come up to speed on systems programming in C in the Unix environment; (4) to prepare students for upper-level systems courses."
+  },
+  {
+    courseID: "EECS 212",
+    courseName: "Mathematical Foundations of Computer Science",
+    courseInfo: "This course will discuss fundamental concepts and tools in discrete mathematics with emphasis on their applications to computer science. Example topics include logic and Boolean circuits; sets, functions, relations, databases, and finite automata; deterministic algorithms and randomized algorithms; analysis techniques based on counting methods and recurrence equations; trees and more general graphs."
+  },
+              ]
+}
