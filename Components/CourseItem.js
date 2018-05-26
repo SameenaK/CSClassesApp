@@ -27,8 +27,7 @@ export default class CourseItem extends Component<Props> {
 
   render() {
     return (
-      <View style={styles.container}>
-        <TouchableHighlight onPress={this.goToCoursePage.bind(this)}>
+        <TouchableHighlight style={styles.container} onPress={this.goToCoursePage.bind(this)}>
           <View>
         <Text style={styles.courseID}>
           {this.props.courseID}
@@ -38,7 +37,6 @@ export default class CourseItem extends Component<Props> {
         </Text>
       </View>
       </TouchableHighlight>
-      </View>
     );
   }
 }
