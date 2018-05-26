@@ -17,6 +17,8 @@ import AllCourses from "./Screens/AllCourses";
 import AllCoursesComplete from "./Screens/AllCoursesComplete";
 import { Router, Scene, Actions } from "react-native-router-flux";
 
+console.disableYellowBox = true;
+
 const AppLogo = () => {
   return (
     <View style={styles.headerView}>
