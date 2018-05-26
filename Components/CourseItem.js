@@ -30,10 +30,10 @@ export default class CourseItem extends Component<Props> {
         <TouchableHighlight style={styles.container} onPress={this.goToCoursePage.bind(this)}>
           <View>
         <Text style={styles.courseID}>
-          {this.props.courseID}
+          Course ID here.
         </Text>
         <Text style={styles.courseName}>
-          {this.props.courseName}
+          Course Name here.
         </Text>
       </View>
       </TouchableHighlight>

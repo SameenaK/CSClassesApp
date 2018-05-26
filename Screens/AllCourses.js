@@ -30,9 +30,9 @@ export default class AllCourses extends Component<Props> {
 
   renderCourseItem(item) {
     return(<CourseItem
-      courseID="Course ID here."
-      courseName="Course Name here."
-      courseInfo="Course Info here."
+      courseID={item.courseID}
+      courseName={item.courseName}
+      courseInfo={item.courseInfo}
       />);
   }
 
