@@ -22,7 +22,6 @@ export default class AllCourses extends Component<Props> {
   constructor(props) {
     super(props);
     this.state = {
-      classData: data["classData"],
       backgroundColor: "#F5FCFF",
     }
     this.changeColor = this.changeColor.bind(this);
@@ -46,7 +45,7 @@ export default class AllCourses extends Component<Props> {
     return (
       <View style={[styles.container, {backgroundColor: this.state.backgroundColor}]}>
         <FlatList
-           data={this.state.classData}
+           data={data["classData"]}
            renderItem={({item}) => this.renderCourseItem(item)}
          />
          <TouchableHighlight onPress={this.changeColor}>
